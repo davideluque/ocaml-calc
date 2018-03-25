@@ -15,3 +15,19 @@ sudo apt-get install opam
 ```
 
 Para más informacion, referirse a <https://ocaml.org/docs/install.html>
+
+Luego de instalar opam, escribir ```make``` y correr con
+
+```./calculadora```
+
+La calculadora espera una serie de operaciones que pueden estar parentizadas.
+
+### Ejemplos
+
+```bash
+(9*10)%
+= 0.9
+
+sqrt (16+9)
+=  5.
+```
