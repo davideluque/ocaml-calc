@@ -8,7 +8,7 @@ Realizado como proyecto del ensayo sobre los conceptos estudiados en la materia 
 
 Para compilar el archivo se provee un Makefile.
 
-Es necesario tener el compilador ocaml, y las herramientas ocamllex y ocamlyacc. La manera más sencilla es instalando opam (OCaml Package Manager) través de aptitude.
+Es necesario tener el compilador ocaml y las herramientas ocamllex y ocamlyacc. La manera más sencilla es instalando opam (OCaml Package Manager) través de aptitude.
 
 ```bash
 sudo apt-get install opam
