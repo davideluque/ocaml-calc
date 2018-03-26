@@ -18,7 +18,9 @@ open Parser   (* Directiva open para tener accesibles los contenidos de Parser *
 exception Eof (* Para lanzar un EOF *)
 }
 
-let float = ['0'-'9']+(['.']['0'-'9']*)?
+let digit = ['0'-'9']
+
+let float = digit+(['.']digit*)?
 
 (* Definicion de expresiones regulares para reconocer tokens *)
 rule token = parse
