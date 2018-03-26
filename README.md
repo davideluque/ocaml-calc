@@ -8,7 +8,7 @@ Realizado como proyecto del ensayo sobre los conceptos estudiados en la materia 
 
 Para compilar el archivo se provee un Makefile.
 
-Es necesario tener el compilador ocaml y las herramientas ocamllex y ocamlyacc. La manera más sencilla es instalando opam (OCaml Package Manager) través de aptitude.
+Es necesario tener el compilador de bytecode ocamlc y las herramientas ocamllex y ocamlyacc. La manera más sencilla es instalando opam (OCaml Package Manager) través de aptitude.
 
 ```bash
 sudo apt-get install opam
@@ -16,7 +16,7 @@ sudo apt-get install opam
 
 Para más informacion, referirse a <https://ocaml.org/docs/install.html>
 
-Luego de instalar opam, escribir ```make``` y correr con
+Luego de instalar opam, dirigirse al directorio del repositorio, ejecutar ```make``` y correr con
 
 ```./calculadora```
 
@@ -30,4 +30,7 @@ La calculadora espera una serie de operaciones que pueden estar parentizadas.
 
 sqrt (16+9)
 =  5.
+
+(9-4)*32/10+4
+= 20.
 ```
