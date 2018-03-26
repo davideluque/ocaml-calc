@@ -10,7 +10,7 @@
     @since Marzo, 2018
 *)
 
-(* Interpretador sencillo *)
+(* Interpretador *)
 
 let _ = 
 	try
