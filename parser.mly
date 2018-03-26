@@ -30,7 +30,7 @@
 
 %%
 main:
-		expr EOL                  { $1 }
+	  expr EOL                { $1 }
 ;
 
 expr: 
